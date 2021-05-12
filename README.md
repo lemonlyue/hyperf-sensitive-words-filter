@@ -1,5 +1,5 @@
-# component-creater
+# hyperf-sensitive-words-filter
 
 ```
-composer create-project hyperf/component-creater
+$ composer require lemonlyue/hyperf-sensitive-words-filter
 ```
