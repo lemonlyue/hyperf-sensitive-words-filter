@@ -27,6 +27,14 @@ class ConfigProvider
                     ],
                 ],
             ],
+            'publish' => [
+                [
+                    'id' => 'config',
+                    'description' => 'The config for sensitive words filter.',
+                    'source' => __DIR__ . '/../publish/sensitive.php',
+                    'destination' => BASE_PATH . '/config/autoload/sensitive.php',
+                ],
+            ]
         ];
     }
 }
